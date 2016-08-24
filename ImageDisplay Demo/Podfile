@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target ‘ImageDisplay Demo’ do
+
+
+pod 'Mantle', '~> 2.0.7'
+pod 'SDWebImage', '~> 3.7.6'
+pod 'MJRefresh', '~> 3.1.0'
+
+end
+
+target 'ImageDisplay DemoTests' do
+
+end
+
+target 'ImageDisplay DemoUITests' do
+
+end
+
